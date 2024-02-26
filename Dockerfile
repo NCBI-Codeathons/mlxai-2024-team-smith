@@ -15,6 +15,8 @@ RUN pip install qrcode fastavro avro
 RUN pip install duckdb
 RUN pip install duckdb-engine
 RUN pip install ablang2
+RUN pip install jupyterlab-fasta
+RUN pip install s3fs
 RUN rm -rf /home/root/.cache
 
 
