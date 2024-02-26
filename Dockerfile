@@ -17,6 +17,7 @@ RUN pip install duckdb-engine
 RUN pip install ablang2
 RUN pip install jupyterlab-fasta
 RUN pip install s3fs
+RUN pip install pyhmmer
 RUN rm -rf /home/root/.cache
 
 
