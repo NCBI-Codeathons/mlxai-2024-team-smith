@@ -14,7 +14,9 @@ Project materials will create a resource with instruction and hands on examples 
 
 ## Approach
 Some cloud computing, jupyter notebooks, tools from SABDAB, oxford protein information group (OPIG). We also want to identify good NCBI datasets.
+
 Example: https://github.com/AntibodyEngineers/covid-not-covid notebook: https://github.com/AntibodyEngineers/covid-not-covid/blob/main/ab_predict_neutralising.ipynb 
+
 Other Examples: https://github.com/AntibodyEngineers/immune-profiling
 
 ## Results
