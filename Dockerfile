@@ -14,6 +14,7 @@ RUN pip install xgboost pendulum jupysql nbconvert[webpdf] jupyterlab_horizon_th
 RUN pip install qrcode fastavro avro
 RUN pip install duckdb
 RUN pip install duckdb-engine
+RUN pip install ablang2
 RUN rm -rf /home/root/.cache
 
 
