@@ -26,7 +26,7 @@ Example: Covid not Covid
 
 Example: ImmuneProfiling
 - https://github.com/AntibodyEngineers/immune-profiling
-- data 
+- data - needs to uploaded to our amazon instance
 
 The general workflow is: 1) create an AWS account, 2) upload our Docker container, 3) step through the enclosed Jupyter notebook, and 4) analyze the antibody results.
 
