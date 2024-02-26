@@ -19,9 +19,14 @@ Project materials will create a resource with instruction and hands on examples 
 ## Approach
 We will use software including Amazon Web Service (AWS) cloud computing accounts, Docker containers, Jupyter notebooks, and tools from SAbDab (The Structural Antibody Database) from the Oxford Protein Information Group (OPIG). We will also identify relevant NCBI datasets.
 
-Example: https://github.com/AntibodyEngineers/covid-not-covid notebook: https://github.com/AntibodyEngineers/covid-not-covid/blob/main/ab_predict_neutralising.ipynb 
+Example: Covid not Covid 
+- https://github.com/AntibodyEngineers/covid-not-covid
+- notebook: https://github.com/AntibodyEngineers/covid-not-covid/blob/main/ab_predict_neutralising.ipynb
+- datafile: covabdab_all.csv
 
-Other Examples: https://github.com/AntibodyEngineers/immune-profiling
+Example: ImmuneProfiling
+- https://github.com/AntibodyEngineers/immune-profiling
+- data 
 
 The general workflow is: 1) create an AWS account, 2) upload our Docker container, 3) step through the enclosed Jupyter notebook, and 4) analyze the antibody results.
 
