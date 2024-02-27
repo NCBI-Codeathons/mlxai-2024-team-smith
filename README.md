@@ -1,12 +1,13 @@
 # A Gentle Introduction to ML and AI Applied to Antibody Engineering
 
 List of participants and affiliations:
-- Todd Smith, PhD, Digital World Biology (Team Leader)
-- Tech Lead:	Herminio Vazquez
-- Writer:		  Stephen Panossian (unaffiliated)
-- Flex:       Jake Lance (student, University of Toronto)
-              Mohsen Sharifi
-              Zainab Adenaike
+
+- Team Leader: Todd Smith, PhD, Digital World Biology
+- Tech Lead:	 Herminio Vazquez, Copado Inc.
+- Writer:		   Stephen Panossian, unaffiliated
+- Flex:        Jake Lance, student, University of Toronto
+               Mohsen Sharifi, Spotify
+               Zainab Adenaike, NIH
 
 ## Project Goals
 For large numbers of scientists, students, and instructors of machine learning (ML) and artificial intelligence (AI), the methods and tools are opaque. Understanding the processes, from defining data sets, to encoding data, to choosing appropriate algorithms to verifying a model's predictive (or generative) quality, to producing random trials using ML, becomes magical learning. These issues exacerbate when peer review (grants and papers) is considered, resulting in unfair critiques, or misleading science that cannot be reproduced. To address this issue we need to look at the ways we can introduce ML concepts in easy-to-digest formats that provide hands-on instruction.
