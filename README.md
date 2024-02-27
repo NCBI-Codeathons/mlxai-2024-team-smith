@@ -5,8 +5,8 @@ List of participants and affiliations:
 - Team Leader: Todd Smith, PhD, Digital World Biology
 - Tech Lead:	 Herminio Vazquez, Copado Inc.
 - Writer:		   Stephen Panossian, unaffiliated
-- Flex:        Jake Lance, student, University of Toronto
-               Mohsen Sharifi, Spotify
+- Flex:        Jake Lance, student, University of Toronto; 
+               Mohsen Sharifi, Spotify;
                Zainab Adenaike, NIH
 
 ## Project Goals
