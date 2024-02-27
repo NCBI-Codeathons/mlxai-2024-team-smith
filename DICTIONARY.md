@@ -1,0 +1,40 @@
+# Terminology
+
+The following table introduces terminology used in the fields of Machine Learning, Data Science, Data Engineering and Artificial Intelligence, and most important their use in the field of __Bioinformatics__ to help you start your journey working with algorithms and machine assisted routines to increase your productivity and capability to operate with more complex problems.
+
+Term | Definition | Field
+-------- | ----------- | ------
+Dataset | A collection of information gathered by observations, measurements, research or analysis | Agnostic
+Dataframe | An data structure abstraction that allows analytical operations like filters or aggregations over data points | Data Engineering
+Data Type | Refers to the nature of type discrete, continuous or categorical nature of fields inside a dataset, for example `numeric`, `string` or `array` | Data Engineering
+CSV | Comma separated file | Data Engineering
+TSV | Tab separated file | Data Engineering
+XSV | A special character separated file | Data Engineering
+File Encoding | Represents how to represent characters when processing text | Data Engineering
+File Format | A predefined structure on a data set, like headers and rows, or more sophisticated versions like binary files like movies or audio | Data Engineering
+Parquet | Is the most popular file format for analytical workloads that allows operating with millions of rows in commodity hardware like a laptop | Data Engineering
+Data Filter | Is a predicate applicable to 1 or many columns in a dataframe that excludes rows that don't match such predicate | Data Engineering
+Data Aggregation | Is a data operation typically applied to groups of rows. Typically used for descriptive statistics | Data Engineering
+Data Partition | Referred when storing data into folders or groups of rows, so that reading or analytical workloads don't have to operate with large amounts of data | Data Engineering
+Data Model | Is an abstraction of multiple entities and their relationships or associations | Data Engineering
+ERD | Entity Relationship Diagram | Data Engineering
+EDA | Exploratory Data Analysis - refers to distributions, statistics, and patterns on data | Data Science
+Features | Refers to the columns or fields that make a data frame | Data Science
+Feature Engineering | Procedure to derive new data points from existing | Data Science
+Data Imputation | Procedure to replace empty or null values in a dataframe using different strategies, for example the `mean` value or the `median`, or `forward-fill` for timeseries | Data Science
+Array | Is a data structure that contains a collection of elements of the same data type | Data Science
+Vector | Is a data structure commonly representing a collection of data points in space | Data Science
+Matrix | Is a data structure commonly representing a collection of data points in Eucledian Space | Data Science
+Tensor | Is a data structure commonly representing a collection of data points in multi-dimensional space | Data Science
+Matrix Rank | Is the vector space spanned by its columns | Data Science
+R | Acronym used in mathematical representations to represent Real numbers | Data Science
+R2 | Acronym used to represent Eucledian space or 2-dimensional space | Data Science
+Machine Learning Model | An algorithm that allows the calculation of a number or label over a group of data points | Data Science
+Linear Model | A machine learning model whos representative function is a line | Data Science
+Model Metrics | Is an evaluation criteria to determine the performance of a machine learning model, i.e. accuracy, area under the curve, specificity, etc. | Data Science
+Training and Testing Datasets | It refers to the process of splitting data from a data set to train and test a machine learning model, expecting that can predict values from unseen data | Data Science
+Hyperparameters | Is the group of values that allow a machine learning model to increase its performance metrics, or reduce its training epocs | Data Science
+Supervised Learning | A machine learning method in which data with samples is at the disposal during training | Data Science
+Unsupervised Learning | A machine learning method to make sense of data when no labels or classification criteria is available | Data Science
+Neural Network | Is a machine representation of how a human brain works, through neurons that are activated through interactions | Data Science
+
