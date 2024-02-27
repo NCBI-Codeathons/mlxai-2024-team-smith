@@ -35,4 +35,7 @@ RUN wget https://ftp.ncbi.nih.gov/blast/executables/igblast/release/database/rhe
 
 EXPOSE 8888
 
+RUN mkdir -p /data
+VOLUME /data
+
 CMD ["jupyter", "lab", "--ip", "0.0.0.0", "--allow-root", "--NotebookApp.token=password"]
