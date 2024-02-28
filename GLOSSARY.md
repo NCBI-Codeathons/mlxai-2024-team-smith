@@ -1,6 +1,10 @@
 # Terminology
 The following table introduces terminology used in the fields of __Immunology__ and __Pharmacology__ .
 
+For sequence data standards please visit: 
+- AIRR (Adaptive Immune Receptor Repertoire) https://docs.airr-community.org/en/stable/datarep/rearrangements.html
+- Change-O Format https://docs.airr-community.org/en/stable/datarep/rearrangements.html
+
 Term | Definition | Field
 -------- | ----------- | ------
 Affinity | the interaction strength at which the antibody/drug is attracted to the target | Immunology
