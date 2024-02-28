@@ -62,7 +62,7 @@ Example: ImmuneProfiling
 | ----------- | ----------- |
 | 26-Feb-2024 | Several issues utilizing Docker |
 | 27-Feb-2024 | Team accessed AWS account and Jupyter notebook; runtime challenges |
-| 28-Feb-2024 |  |
+| 28-Feb-2024 | None reported |
 | 29-Feb-2024 |  |
 | 01-Mar-2024 |  |
 
