@@ -17,6 +17,34 @@
 This project focuses on applying machine learning and artificial intelligence (ML/AI) methods to immunoprofiling. The team will develop a Jupyter notebook and underlying software to first undertake comparative analyses of the iReceptor dataset, and then incorporate the AbLang2 antibody-specific language model to characterize data within the Structural Antibody Database. Also, the team will develop a dictionary/glossary defining essential computer and biology terms related to the computations processed within the Jupyter notebook.
 
 
+## Methods
+
+The following diagrams represent the high-level methods employed in Data Science and Bioinformatics
+
+### Data Method
+
+```mermaid
+    flowchart LR
+    
+    A[Collect] --> B[Profile]
+    B -->C{complete?}
+    C-->|Yes|D[Exploration]
+    C-->|No|A
+    D --> E[Charts]
+    D --> F[Impute]
+    E --> G[Aggregate]
+    F --> G
+    G --> H[Model]
+    H --> I[Feature Engineering]
+    I --> J[Train/Test]
+    I --> K[Tune]
+    K --> J
+    J --> L[Predict]
+    L --> M[Operationalize]
+    M --> N[Monitor]
+```
+
+
 ## Approach
 The team will use software tools including Amazon Web Service (AWS) cloud computing accounts, Docker containers, Jupyter notebooks, and datasets from both iReceptor and SAbDab (The Structural Antibody Database) from the Oxford Protein Information Group (OPIG). The team will also identify relevant NCBI SRA (Sequence Read Archive) datasets. The general workflow is: 1) create an AWS instance, 2) upload a Docker container, 3) step through the enclosed Jupyter notebook, and 4) analyze the antibody results. Prior work illustrates this approach:
 
