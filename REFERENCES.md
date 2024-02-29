@@ -54,14 +54,14 @@ antibody paratope prediction using convolutional and recurrent neural networks.
 Bioinformatics, 34(17), 2018, 2944Ð2950. doi:10.1093/bioinformatics/bty305 
 
 Olsen, T. H., Moal, I. H., & Deane, C. M. (2022). AbLang: An antibody language model for 
-completing antibody sequences [preprint]. bioRxiv. doi:10.1101/2022.01.20.477061
+completing antibody sequences [preprint]. bioRxiv. https://doi.org/10.1101/2022.01.20.477061 
 
 Olsen, T. H., Moal, I. H., & Deane, C. M. (2024). Addressing the antibody germline bias and its 
-effect on language models for improved antibody design [preprint]. bioRxiv. doi:10.1101/2024.02.02.578678 
+effect on language models for improved antibody design [preprint]. bioRxiv. https://doi.org/10.1101/2022.02.27.481241 
 
 Park, M., Seo, S.-W., Park, E., & Kim, J. (2022). EpiBERTope: a sequence-based pre-trained BERT 
 model improves linear and structural epitope prediction by learning long-distance 
-protein interactions effectively [preprint]. bioRxiv. doi:10.1101/2022.02.27.481241 
+protein interactions effectively [preprint]. bioRxiv. https://doi.org/10.1101/2022.02.27.481241 
 
 Parkinson, J. & Wang, W. (2024). For antibody sequence generative modeling, mixture models 
 may be all you need [preprint]. bioRxiv. https://doi.org/10.1101/2024.01.27.577555 
@@ -76,7 +76,7 @@ and antigen design. Biochemistry, 60, 825?846. https://dx.doi.org/10.1021/acs.bi
 
 Shanehsazzadeh, A.,  Alverio, J., Kasun, G., Levine, S., Khan, J. A., Chung, C., & Diaz, N. In vitro 
 validated antibody design against multiple therapeutic antigens using generative inverse 
-folding [preprint]. bioRxiv. doi:10.1101/2023.12.08.570889 
+folding [preprint]. bioRxiv. https://doi.org/10.1101/2023.12.08.570889
 
 Smith, T. (2018, Nov. 7). What is Immunoprofiling? Blog. Digital World Biology. Accessed 27 
 Feb. 2024. https://digitalworldbiology.com/blog/what-immunoprofiling 
