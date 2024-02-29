@@ -8,7 +8,7 @@ For sequence data standards please visit:
 Term | Definition | Field
 -------- | ----------- | ------
 Affinity | the interaction strength at which the antibody/drug is attracted to the target | Immunology
-Antigen receptor | (AR) | Immunoprofiling
+Antigen receptor | an antibody or T-cell receptor (AR) | Immunology
 AR recombination | the process where a Variable (V), Diversity (D), or Joining (J) gene is combined with a gene from another group.  A heavy chain molecule results when V, D, and J genes combine, while a light chain molecule is formed when only V and J genes combine. | Immunoprofiling
 B and T cell epitopes | B cell epitopes are either the conformational or linear part of the protein antigen that antibodies bind to. T cell epitopes are usually protein antigen-derived peptides presented by MHC molecules on antigen-presenting cells and recognized by T cell receptors | Immunology 
 Complementarity-determining regions (CDRs) | flexible loop regions of diversity in immunoglobulin variable domains that are mainly responsible for antigen binding. Both the VH and VL domains contain three CDR loops. | Immunology
@@ -22,4 +22,4 @@ Immunoprofiling | the quantitative measurement of antigen receptors (ARs; antibo
 Molecular dynamics (MD) simulations | a computer simulation technique for analyzing the physical movements of each individual atoms or molecules. This technique permits the prediction of time evolution of an interacting system involving the generation of atomic trajectories of a system under different conditions, such as temperature, pH, and pressure. | Immunology
 Paratope | the region of an antibody that recognizes and binds to the antigen. Scoring functions: physical/ mathematical models that attempt to describe the potential energy of a protein system. | Immunology
 Scoring functions | physical/ mathematical models that attempt to describe the potential energy of a protein system. | Immunology
-V(D)J gene region | the junction of Variable (V), Diversity (D), and Joining (J) genes along the antigen genome, which when recombined, form a loci of high diversity in the AR.
+V(D)J gene region | the junction of Variable (V), Diversity (D), and Joining (J) genes along the antigen genome, which when recombined, form a loci of high diversity. | Immunology
