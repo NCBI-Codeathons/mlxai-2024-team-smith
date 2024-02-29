@@ -37,5 +37,3 @@ TSV | Tab-separated values file format | Data Engineering
 Unsupervised Learning | A machine learning method to make sense of data when no labels or classification criteria is available | Data Science
 Vector | A data structure commonly representing a collection of data points in space | Data Science
 XSV | A special character-separated file | Data Engineering
-![image](https://github.com/NCBI-Codeathons/mlxai-2024-team-smith/assets/10051226/016c11fc-042b-434e-b735-2e0e28871252)
-
