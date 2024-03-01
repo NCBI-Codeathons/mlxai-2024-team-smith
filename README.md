@@ -6,10 +6,10 @@
 | ----------- | ----------- | ----------- |
 | Team Lead | Todd Smith, PhD | Digital World Biology, LLC |
 | Tech Lead | Herminio Vazquez | Copado Inc. |
-| Writer | Stephen Panossian | Unaffiliated |
 | Flex | Zainab Adenaike | NIH/NLM/NCBI |
 | Flex | Jake Lance | student, University of Toronto |
 | Flex | Mohsen Sharifi Renani | Spotify AB|
+| Writer | Stephen Panossian | Unaffiliated |
 
 
 ## Project Goals
