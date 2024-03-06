@@ -55,7 +55,7 @@ Example: Covid not Covid
 - notebook: https://github.com/AntibodyEngineers/covid-not-covid/blob/main/ab_predict_neutralising.ipynb
 - datafile: covabdab_all.csv
 
-Example: ImmuneProfiling
+Example: Immune Profiling
 - https://github.com/AntibodyEngineers/immune-profiling
 - data: (https://gateway.ireceptor.org/sequences?query_id=85212), needs to be uploaded to our Amazon instance
 
@@ -70,9 +70,14 @@ Example: ImmuneProfiling
 
 ## Results
 Many jupyter notebooks and notebook fragements were created all are in the [notebooks](notebooks/) folder. The most instructive notebooks are:
+### Machine Learing
+- [ab_predict_neutralising.ipynb](notebooks/ab_predict_neutralising.ipynb) the notebook from [Covid-not-Covid](https://github.com/AntibodyEngineers/covid-not-covid) that was used as a starting point for this work. 
 - [ab_predict_neutralising_final.ipynb](ab_predict_neutralising_final.ipynb) includes working code plus descriptions of the machine learning process and rational for certain choices. In addition code is included for exploring the dataset that was used for training and testing the model.
+### Immune Profiling
 - [Herminio.ipynb](notebooks/Herminio.ipynb) provides a few simple examples of using markdown in jupyter notebooks.
-- [ireceptor-herminio.ipynb](notebooks/ireceptor-herminio.ipynb) demonstrates several pyton libraries and code that are used to explore a large dataset and introduces parquet files as a way to efficiently work with large datasets.  
+- [ireceptor.ipynb](notebooks/ireceptor.ipynb) was a notebook from [Immune Profilling](https://github.com/AntibodyEngineers/immune-profiling) and was used as a starting point for this work.
+- [ireceptor-herminio.ipynb](notebooks/ireceptor-herminio.ipynb) demonstrates several pyton libraries and code that are used to explore a large dataset and introduces parquet files as a way to efficiently work with large datasets.
+- [ireceptor-mohsen.ipynb](notebooks/ireceptor-mohsen.ipynb) add PCA plotting.
 
 ## Future Work
 
