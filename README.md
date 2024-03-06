@@ -23,6 +23,8 @@ The following diagrams represent the high-level methods employed in Data Science
 
 ### Data Method
 
+See [mermaid] (https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid) to learn about making the figure.
+
 ```mermaid
     flowchart LR
     
