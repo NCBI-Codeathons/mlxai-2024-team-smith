@@ -69,7 +69,10 @@ Example: ImmuneProfiling
 | 01-Mar-2024 |  |
 
 ## Results
-
+Many jupyter notebooks and notebook fragements were created all are in the [notebooks](notebooks/) folder. The most instructive notebooks are:
+- [ab_predict_neutralising_final.ipynb](ab_predict_neutralising_final.ipynb) includes working code plus descriptions of the machine learning process and rational for certain choices. In addition code is included for exploring the dataset that was used for training and testing the model.
+- [Herminio.ipynb](notebooks/Herminio.ipynb) provides a few simple examples of using markdown in jupyter notebooks.
+- [ireceptor-herminio.ipynb](notebooks/ireceptor-herminio.ipynb) demonstrates several pyton libraries and code that are used to explore a large dataset and introduces parquet files as a way to efficiently work with large datasets.  
 
 ## Future Work
 
