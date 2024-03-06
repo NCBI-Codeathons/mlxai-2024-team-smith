@@ -1,5 +1,5 @@
 # Terminology
-The following table introduces terminology used in the fields of __Immunology__ and __Pharmacology__. These definitions were collated and edited from the technical papers listed in the [REFERENCES.md](REFERENCES.md) file.
+The following table introduces terminology used in the fields of __Immunology__ and __Pharmacology__. These definitions were collated and edited from the technical papers listed in the [REFERENCES.md](REFERENCES.md) file. For data science related terminology see [DICTIONARY.md](DICTIONARY.md).
 
 For sequence data standards please visit: 
 - AIRR (Adaptive Immune Receptor Repertoire) https://docs.airr-community.org/en/stable/datarep/rearrangements.html
