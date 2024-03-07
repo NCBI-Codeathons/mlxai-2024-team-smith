@@ -14,14 +14,19 @@
 
 ## Project Goals
 
-This project focuses on applying machine learning and artificial intelligence (ML/AI) methods to immunoprofiling. The team will develop a Jupyter notebook and underlying software to first undertake comparative analyses of the iReceptor dataset, and then incorporate the AbLang2 antibody-specific language model to characterize data within the Structural Antibody Database. Also, the team will develop a dictionary/glossary defining essential computer and biology terms related to the computations processed within the Jupyter notebook.
-
+The project focused on developing resources and documentation for teacing data science and machine learning / artificial intelligence (ML/AI) cocepts related to antibody engineering. Immune profiling (immunoprofiling) datasets were used as a source of antibody sequneces for both data science and ML. The team develope Jupyter notebooks to undertake comparative analyses of iReceptor datasets, and then incorporate the AbLang2 antibody-specific language model to characterize data from CoV-AbDab. A dictionary and glossary of terms defining essential computer and biology terms related to the computations processed within the Jupyter notebook were also developed. 
 
 ## Methods
+### Datasets
+- CoV-AbDab database in csv format. [CoV-AbDab](https://opig.stats.ox.ac.uk/webapps/covabdab/) is a public database to document all published/patented antibodies and nanobodies able to bind to coronaviruses, including SARS-CoV2, SARS-CoV1, and MERS-CoV. The codathon used the Feb 8, 2024 release containing 12,916 entries. Entries are highly annotated and indicate neutralizing ability, kind of receptor (antibody, nanobodie), where data are pair (heavy and light chaing, just heavy), epitope bound, if a stucture exists, virus reactivitiy among others.
+- [iReceptor](https://gateway.ireceptor.org) (free account required) lymphoma dataset uptained with the following filters: **Study ID**: PRJEB1289; **Study type** Case Control (Ontology ID): NCIT:C15197; **Filter by Sample > PCR target**: IGH or IGK or IGL
+### Software 
+- Immune Profiling: See notebooks for details: Key python libraries include Pandas for structuring and manipulating data, json for reading metadata, Matplot lib for graphing and Seaborn for exploring correlations between data in columns.
+- Machine learning: [AbLang2](https://github.com/TobiasHeOl/AbLang2)
 
 The following diagrams represent the high-level methods employed in Data Science and Bioinformatics
 
-### Data Method
+### Example Data Method
 
 See [mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid) to learn about making the figure.
 
@@ -46,9 +51,10 @@ See [mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mer
     M --> N[Monitor]
 ```
 
-
 ## Approach
-The team will use software tools including Amazon Web Service (AWS) cloud computing accounts, Docker containers, Jupyter notebooks, and datasets from both iReceptor and SAbDab (The Structural Antibody Database) from the Oxford Protein Information Group (OPIG). The team will also identify relevant NCBI SRA (Sequence Read Archive) datasets. The general workflow is: 1) create an AWS instance, 2) upload a Docker container, 3) step through the enclosed Jupyter notebook, and 4) analyze the antibody results. Prior work illustrates this approach:
+The team used software tools including Amazon Web Service (AWS) cloud computing accounts, Jupyter notebooks, and datasets from both iReceptor and SAbDab (The Structural Antibody Database) from the Oxford Protein Information Group (OPIG). The team will also identify relevant NCBI SRA (Sequence Read Archive) datasets. The general workflow is: 1) create an AWS instance, 2) step through the enclosed Jupyter notebook, and 3) analyze the antibody results. Minor experimentation was done with Docker containers. 
+
+Prior work illustrates this approach:
 
 Example: Covid not Covid 
 - https://github.com/AntibodyEngineers/covid-not-covid
