@@ -26,6 +26,16 @@ The project focused on developing resources and documentation for teacing data s
 
 The following diagrams represent the high-level methods employed in Data Science and Bioinformatics
 
+### Antibody (Immune Profiling)Sequencing
+
+```mermaid
+    flowchart TD
+    A[Collect Samples] --> B[Isolate DNA / RNA->cDNA] --> C[PCR] -- V-gene, C-gene primers --> D[Sequence DNA] -- NGS - massively parallel --> E[IgBLAST] -- Vh Dh Jh, Vl Jl, Vk Jk references --> F[Immune Profile Dataset];
+    F -- repeat --> A
+    F --> G[Explore data, analyze];
+    F --> H[Machine learning]; 
+```
+
 ### Example Data Method
 
 See [mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid) to learn about making the figure.
@@ -49,16 +59,6 @@ See [mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mer
     J --> L[Predict]
     L --> M[Operationalize]
     M --> N[Monitor]
-```
-
-## Antibody (Immune Profiling)Sequencing
-
-```mermaid
-    flowchart TD
-    A[Collect Samples] --> B[Isolate DNA / RNA->cDNA] --> C[PCR] -- V-gene, C-gene primers --> D[Sequence DNA] -- NGS - massively parallel --> E[IgBLAST] -- Vh Dh Jh, Vl Jl, Vk Jk references --> F[Immune Profile Dataset];
-    F -- repeat --> A
-    F --> G[Explore data, analyze];
-    F --> H[Machine learning]; 
 ```
      
 ## Approach
