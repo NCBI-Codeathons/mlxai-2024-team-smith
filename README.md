@@ -86,7 +86,7 @@ Example: Immune Profiling
 | 01-Mar-2024 |  |
 
 ## Results
-Many jupyter notebooks and notebook fragements were created all are in the [notebooks](notebooks/) folder. The most instructive notebooks are:
+Many jupyter notebooks and notebook fragements were created. All are in the [notebooks](notebooks/) folder. The most instructive notebooks are:
 ### Machine Learing
 - [ab_predict_neutralising.ipynb](notebooks/ab_predict_neutralising.ipynb) the notebook from [Covid-not-Covid](https://github.com/AntibodyEngineers/covid-not-covid) that was used as a starting point for this work. 
 - [ab_predict_neutralising_final.ipynb](ab_predict_neutralising_final.ipynb) includes working code plus descriptions of the machine learning process and rational for certain choices. In addition code is included for exploring the dataset that was used for training and testing the model.
