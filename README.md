@@ -74,7 +74,7 @@ Example: Covid not Covid
 
 Example: Immune Profiling
 - https://github.com/AntibodyEngineers/immune-profiling
-- data: see above.
+- data: see [#Methods] above.
 
 **2024 ML/AI Codeathon Log**
 | Date | Issues |
