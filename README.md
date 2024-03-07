@@ -55,10 +55,9 @@ See [mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mer
 
 ```mermaid
     flowchart TD
-    A[Collect Samples]-->B[Isolate/make DNA]-->C[PCR];
-    D[Sequence DNA -NGS];
-    E[IgBLAST / Vh Dh Jh, Vl Jl, Vk Jk references];
-    F[Immune Profile Dataset];
+    A[Collect Samples] --> B[Isolate/make DNA] --> C[PCR] --> D[Sequence DNA -NGS] --> E[IgBLAST / Vh Dh Jh, Vl Jl, Vk Jk references] --> F[Immune Profile Dataset];
+    F --> G[Explore data, analyze];
+    F --> H[Machine learning]; 
 ```
      
 ## Approach
