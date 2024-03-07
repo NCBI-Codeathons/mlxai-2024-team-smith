@@ -38,8 +38,7 @@ The common source for antibody seqeunce data comes from immune profiling experie
 ```
 
 ### Example Data Method
-
-See [mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid) to learn about making the figure.
+High level data science workflow.
 
 ```mermaid
     flowchart LR
