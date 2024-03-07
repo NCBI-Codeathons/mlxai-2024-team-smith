@@ -26,7 +26,8 @@ The project focused on developing resources and documentation for teacing data s
 
 The following diagrams represent the high-level methods employed in Data Science and Bioinformatics
 
-### Antibody (Immune Profiling)Sequencing
+### Antibody (Immune Profiling) Sequencing
+The common source for antibody seqeunce data comes from immune profiling experiements and assays. 
 
 ```mermaid
     flowchart TD
