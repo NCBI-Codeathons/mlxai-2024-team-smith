@@ -63,7 +63,7 @@ High level data science workflow.
 See [mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid) to learn about making the figure. [Mermaid.org](http://mermaid.js.org/), and [flow charts](http://mermaid.js.org/syntax/flowchart.html) provide complete documentation. 
 
 ## Approach
-The team used software tools including Amazon Web Service (AWS) cloud computing accounts, Jupyter notebooks, and datasets from both iReceptor and SAbDab (The Structural Antibody Database) from the Oxford Protein Information Group (OPIG). The team will also identify relevant NCBI SRA (Sequence Read Archive) datasets. The general workflow is: 1) create an AWS instance, 2) step through the enclosed Jupyter notebook, and 3) analyze the antibody results. Minor experimentation was done with Docker containers. 
+The team used software tools including Amazon Web Service (AWS) cloud computing accounts, Jupyter notebooks, and datasets from both iReceptor and SAbDab (The Structural Antibody Database) from the Oxford Protein Information Group (OPIG). The general workflow is: 1) create an AWS instance, 2) step through the enclosed Jupyter notebook, and 3) analyze the antibody results. Minor experimentation was done with Docker containers. 
 
 Prior work illustrates this approach:
 
@@ -74,7 +74,7 @@ Example: Covid not Covid
 
 Example: Immune Profiling
 - https://github.com/AntibodyEngineers/immune-profiling
-- data: (https://gateway.ireceptor.org/sequences?query_id=85212), needs to be uploaded to our Amazon instance
+- data: see above.
 
 **2024 ML/AI Codeathon Log**
 | Date | Issues |
@@ -83,7 +83,7 @@ Example: Immune Profiling
 | 27-Feb-2024 | Team accessed AWS account and Jupyter notebook; runtime challenges |
 | 28-Feb-2024 | None reported |
 | 29-Feb-2024 | None reported |
-| 01-Mar-2024 |  |
+| 01-Mar-2024 | Final Presetation |
 
 ## Results
 Many jupyter notebooks and notebook fragements were created. All are in the [notebooks](notebooks/) folder. The most instructive notebooks are:
