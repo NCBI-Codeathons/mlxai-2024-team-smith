@@ -51,6 +51,16 @@ See [mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mer
     M --> N[Monitor]
 ```
 
+## Antibody (Immune Profiling)Sequencing
+
+```mermaid
+    flowchart TD
+    A[Collect Samples]-->B[Isolate/make DNA]-->C[PCR];
+    D[Sequence DNA(NGS)];
+    E[IgBLAST / Vh Dh Jh, Vl Jl, Vk Jk references];
+    F[Immune Profile Dataset];
+```
+     
 ## Approach
 The team used software tools including Amazon Web Service (AWS) cloud computing accounts, Jupyter notebooks, and datasets from both iReceptor and SAbDab (The Structural Antibody Database) from the Oxford Protein Information Group (OPIG). The team will also identify relevant NCBI SRA (Sequence Read Archive) datasets. The general workflow is: 1) create an AWS instance, 2) step through the enclosed Jupyter notebook, and 3) analyze the antibody results. Minor experimentation was done with Docker containers. 
 
