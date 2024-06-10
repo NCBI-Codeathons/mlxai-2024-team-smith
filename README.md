@@ -20,9 +20,9 @@ The project focused on developing resources and documentation for teacing data s
 ### Datasets
 - CoV-AbDab database in csv format. [CoV-AbDab](https://opig.stats.ox.ac.uk/webapps/covabdab/) is a public database to document all published/patented antibodies and nanobodies able to bind to coronaviruses, including SARS-CoV2, SARS-CoV1, and MERS-CoV. The codathon used the Feb 8, 2024 release containing 12,916 entries. Entries are highly annotated and indicate neutralizing ability, kind of receptor (antibody, nanobodie), where data are pair (heavy and light chaing, just heavy), epitope bound, if a stucture exists, virus reactivitiy among others.
 - [iReceptor](https://gateway.ireceptor.org) (free account required) lymphoma dataset uptained with the following filters:
-    - **Study ID**: PRJEB1289;
-    - **Study type** Case Control (Ontology ID): NCIT:C15197;
-    - **Filter by Sample > PCR target**: IGH or IGK or IGL
+    - **Study ID:** PRJEB1289;
+    - **Study type:** Case Control (Ontology ID): NCIT:C15197;
+    - **Filter by Sample > PCR target:** IGH or IGK or IGL
 ### Software 
 - Immune Profiling: See notebooks for details: Key python libraries include Pandas for structuring and manipulating data, json for reading metadata, Matplot lib for graphing and Seaborn for exploring correlations between data in columns.
 - Machine learning: [AbLang2](https://github.com/TobiasHeOl/AbLang2)
