@@ -17,7 +17,7 @@ Dataset | A collection of information gathered by observations, measurements, re
 EDA | Exploratory Data Analysis - refers to distributions, statistics, and patterns on data | Data Science
 ERD | Entity Relationship Diagram | Data Engineering
 Epoch || Machine Learning
-Embedding|| Machine Learning
+Embeddings|| Machine Learning
 F1 Score || Machine Learning
 Feature Engineering | Procedure to derive new data points from existing | Data Science
 Features | Refers to the columns or fields that make a data frame | Data Science
