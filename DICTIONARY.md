@@ -16,8 +16,9 @@ Dataframe | A data structure abstraction that allows analytical operations like 
 Dataset | A collection of information gathered by observations, measurements, research or analysis | Agnostic
 EDA | Exploratory Data Analysis - refers to distributions, statistics, and patterns on data | Data Science
 ERD | Entity Relationship Diagram | Data Engineering
-Epoch || Data Science
-F1 Score || Data Science
+Epoch || Machine Learning
+Embedding|| Machine Learning
+F1 Score || Machine Learning
 Feature Engineering | Procedure to derive new data points from existing | Data Science
 Features | Refers to the columns or fields that make a data frame | Data Science
 File Encoding | Represents how to represent characters when processing text | Data Engineering
